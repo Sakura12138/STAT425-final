@@ -1,310 +1,104 @@
-GeoName,Description,2011,2012,2013,2014,2015,2016
-Illinois,Personal income (thousands of dollars),562292466,587601163,600782652,628783275,652685245,663338023
-Illinois,Population (persons) 1/,12860012,12870798,12879505,12867544,12839047,12801539
-Illinois,Per capita personal income (dollars) 2/,43724,45654,46646,48866,50836,51817
-Adams,Personal income (thousands of dollars),2556329,2652079,2686339,2740518,2804039,2810914
-Adams,Population (persons) 1/,67207,67164,66997,67031,66974,66578
-Adams,Per capita personal income (dollars) 2/,38037,39487,40096,40884,41868,42220
-Alexander,Personal income (thousands of dollars),213208,212129,213134,208617,207939,206981
-Alexander,Population (persons) 1/,8018,7712,7215,7074,6776,6478
-Alexander,Per capita personal income (dollars) 2/,26591,27506,29540,29491,30688,31951
-Bond,Personal income (thousands of dollars),543816,543637,563536,560021,559124,559836
-Bond,Population (persons) 1/,17675,17508,17320,17111,16924,16824
-Bond,Per capita personal income (dollars) 2/,30768,31051,32537,32729,33037,33276
-Boone,Personal income (thousands of dollars),2004310,2078854,2100837,2160188,2217833,2253951
-Boone,Population (persons) 1/,54168,53802,53779,53706,53490,53503
-Boone,Per capita personal income (dollars) 2/,37002,38639,39064,40222,41463,42128
-Brown,Personal income (thousands of dollars),175963,183969,203205,187756,187923,190657
-Brown,Population (persons) 1/,6871,6894,6863,6838,6821,6762
-Brown,Per capita personal income (dollars) 2/,25610,26685,29609,27458,27551,28195
-Bureau,Personal income (thousands of dollars),1286373,1262136,1358414,1292821,1274151,1305629
-Bureau,Population (persons) 1/,34660,34350,34096,33836,33471,33359
-Bureau,Per capita personal income (dollars) 2/,37114,36743,39841,38208,38067,39139
-Calhoun,Personal income (thousands of dollars),180054,174344,184273,175385,177274,180483
-Calhoun,Population (persons) 1/,5067,5021,5036,4963,4898,4894
-Calhoun,Per capita personal income (dollars) 2/,35535,34723,36591,35339,36193,36878
-Carroll,Personal income (thousands of dollars),609840,586616,631532,611045,590793,605052
-Carroll,Population (persons) 1/,15221,15075,14939,14786,14628,14539
-Carroll,Per capita personal income (dollars) 2/,40066,38913,42274,41326,40388,41616
-Cass,Personal income (thousands of dollars),470499,451084,500936,490980,476996,484594
-Cass,Population (persons) 1/,13634,13411,13292,13091,12869,12676
-Cass,Per capita personal income (dollars) 2/,34509,33635,37687,37505,37066,38229
-Champaign,Personal income (thousands of dollars),7661065,7886661,8140161,8550306,8801074,8926464
-Champaign,Population (persons) 1/,202688,203937,205365,206646,207734,208419
-Champaign,Per capita personal income (dollars) 2/,37797,38672,39638,41377,42367,42829
-Christian,Personal income (thousands of dollars),1285161,1237775,1314168,1261514,1230096,1261475
-Christian,Population (persons) 1/,34724,34520,34183,33882,33546,33309
-Christian,Per capita personal income (dollars) 2/,37011,35857,38445,37233,36669,37872
-Clark,Personal income (thousands of dollars),585543,571970,622594,605087,588020,606483
-Clark,Population (persons) 1/,16219,16301,16145,16119,15943,15938
-Clark,Per capita personal income (dollars) 2/,36102,35088,38563,37539,36883,38053
-Clay,Personal income (thousands of dollars),463920,475123,502541,468763,463329,471764
-Clay,Population (persons) 1/,13725,13717,13522,13413,13378,13300
-Clay,Per capita personal income (dollars) 2/,33801,34638,37165,34948,34634,35471
-Clinton,Personal income (thousands of dollars),1456669,1473181,1534722,1564715,1578305,1585674
-Clinton,Population (persons) 1/,38148,38071,37879,37801,37809,37729
-Clinton,Per capita personal income (dollars) 2/,38185,38696,40516,41393,41744,42028
-Coles,Personal income (thousands of dollars),1785098,1782596,1851878,1882900,1891564,1903948
-Coles,Population (persons) 1/,53601,53344,53046,52712,52563,52343
-Coles,Per capita personal income (dollars) 2/,33303,33417,34911,35721,35987,36374
-Cook,Personal income (thousands of dollars),236436703,250500052,257827087,277007331,290008075,294875826
-Cook,Population (persons) 1/,5214682,5230016,5240283,5239254,5224823,5203499
-Cook,Per capita personal income (dollars) 2/,45341,47897,49201,52872,55506,56669
-Crawford,Personal income (thousands of dollars),770244,789525,818295,835535,816999,825492
-Crawford,Population (persons) 1/,19784,19621,19495,19368,19413,19308
-Crawford,Per capita personal income (dollars) 2/,38933,40239,41975,43140,42085,42754
-Cumberland,Personal income (thousands of dollars),383579,383161,450240,418171,413212,421901
-Cumberland,Population (persons) 1/,11080,10942,10901,10894,10857,10858
-Cumberland,Per capita personal income (dollars) 2/,34619,35017,41303,38385,38060,38856
-DeKalb,Personal income (thousands of dollars),3487026,3497442,3639496,3666157,3764807,3842626
-DeKalb,Population (persons) 1/,104364,104276,104148,104798,104541,104528
-DeKalb,Per capita personal income (dollars) 2/,33412,33540,34945,34983,36013,36762
-De Witt,Personal income (thousands of dollars),678531,665293,737513,700030,687412,707969
-De Witt,Population (persons) 1/,16547,16497,16385,16243,16260,16226
-De Witt,Per capita personal income (dollars) 2/,41006,40328,45011,43097,42276,43632
-Douglas,Personal income (thousands of dollars),830946,811233,910235,885152,873386,878428
-Douglas,Population (persons) 1/,19828,19822,19800,19845,19753,19630
-Douglas,Per capita personal income (dollars) 2/,41908,40926,45971,44603,44215,44749
-DuPage,Personal income (thousands of dollars),51072446,53689543,54303433,57266002,60441147,61404832
-DuPage,Population (persons) 1/,924245,927668,931296,932419,931819,929368
-DuPage,Per capita personal income (dollars) 2/,55259,57876,58310,61417,64864,66072
-Edgar,Personal income (thousands of dollars),663131,651152,732644,685058,668975,715749
-Edgar,Population (persons) 1/,18412,18174,17943,17812,17644,17566
-Edgar,Per capita personal income (dollars) 2/,36016,35829,40832,38460,37915,40746
-Edwards,Personal income (thousands of dollars),223082,223974,253849,234933,228608,227864
-Edwards,Population (persons) 1/,6682,6726,6671,6622,6520,6523
-Edwards,Per capita personal income (dollars) 2/,33386,33300,38053,35478,35063,34932
-Effingham,Personal income (thousands of dollars),1402098,1430101,1474623,1508498,1479541,1523708
-Effingham,Population (persons) 1/,34284,34351,34312,34337,34396,34386
-Effingham,Per capita personal income (dollars) 2/,40897,41632,42977,43932,43015,44312
-Fayette,Personal income (thousands of dollars),660010,638653,709152,652389,653303,665243
-Fayette,Population (persons) 1/,22373,22130,22145,22002,22059,21789
-Fayette,Per capita personal income (dollars) 2/,29500,28859,32023,29651,29616,30531
-Ford,Personal income (thousands of dollars),618506,639899,703883,677610,656767,669842
-Ford,Population (persons) 1/,13945,13982,13803,13704,13726,13575
-Ford,Per capita personal income (dollars) 2/,44353,45766,50995,49446,47848,49344
-Franklin,Personal income (thousands of dollars),1253256,1289389,1299616,1316501,1324541,1323138
-Franklin,Population (persons) 1/,40012,39874,39574,39485,39427,39156
-Franklin,Per capita personal income (dollars) 2/,31322,32337,32840,33342,33595,33791
-Fulton,Personal income (thousands of dollars),1209606,1207439,1234706,1211702,1207556,1218392
-Fulton,Population (persons) 1/,36950,36624,36375,35951,35750,35536
-Fulton,Per capita personal income (dollars) 2/,32736,32969,33944,33704,33778,34286
-Gallatin,Personal income (thousands of dollars),207709,202264,258109,225052,213579,223612
-Gallatin,Population (persons) 1/,5516,5419,5408,5308,5278,5212
-Gallatin,Per capita personal income (dollars) 2/,37656,37325,47727,42399,40466,42903
-Greene,Personal income (thousands of dollars),475791,456700,507226,477192,453377,463839
-Greene,Population (persons) 1/,13851,13631,13511,13402,13313,13093
-Greene,Per capita personal income (dollars) 2/,34351,33505,37542,35606,34055,35426
-Grundy,Personal income (thousands of dollars),2669166,3248958,2800390,2571418,2439536,2421170
-Grundy,Population (persons) 1/,50073,50168,50177,50409,50499,50437
-Grundy,Per capita personal income (dollars) 2/,53305,64762,55810,51011,48309,48004
-Hamilton,Personal income (thousands of dollars),299421,297657,374978,345856,335412,342940
-Hamilton,Population (persons) 1/,8422,8372,8329,8295,8198,8061
-Hamilton,Per capita personal income (dollars) 2/,35552,35554,45021,41695,40914,42543
-Hancock,Personal income (thousands of dollars),714293,704073,771347,770039,751043,759431
-Hancock,Population (persons) 1/,19034,18893,18603,18621,18539,18508
-Hancock,Per capita personal income (dollars) 2/,37527,37266,41464,41353,40512,41033
-Hardin,Personal income (thousands of dollars),131928,140483,145083,147759,141446,137982
-Hardin,Population (persons) 1/,4285,4263,4249,4217,4113,4024
-Hardin,Per capita personal income (dollars) 2/,30788,32954,34145,35039,34390,34290
-Henderson,Personal income (thousands of dollars),262266,247623,284541,269494,262092,272030
-Henderson,Population (persons) 1/,7217,7049,6957,6985,6971,6869
-Henderson,Per capita personal income (dollars) 2/,36340,35129,40900,38582,37597,39603
-Henry,Personal income (thousands of dollars),1996881,2022595,2124752,2107334,2094399,2110100
-Henry,Population (persons) 1/,50316,50160,49831,49673,49459,49280
-Henry,Per capita personal income (dollars) 2/,39687,40323,42639,42424,42346,42819
-Iroquois,Personal income (thousands of dollars),1158387,1160309,1252744,1179512,1153100,1184622
-Iroquois,Population (persons) 1/,29518,29300,28982,28804,28651,28334
-Iroquois,Per capita personal income (dollars) 2/,39243,39601,43225,40950,40246,41809
-Jackson,Personal income (thousands of dollars),1898430,1877489,1923364,1928447,1986862,2008935
-Jackson,Population (persons) 1/,60290,58962,59593,59293,59220,58870
-Jackson,Per capita personal income (dollars) 2/,31488,31842,32275,32524,33551,34125
-Jasper,Personal income (thousands of dollars),371892,374464,437189,396188,362913,373741
-Jasper,Population (persons) 1/,9741,9646,9574,9615,9591,9536
-Jasper,Per capita personal income (dollars) 2/,38178,38821,45664,41205,37839,39193
-Jefferson,Personal income (thousands of dollars),1291032,1329449,1353713,1385209,1399097,1413995
-Jefferson,Population (persons) 1/,38759,38666,38657,38442,38390,38460
-Jefferson,Per capita personal income (dollars) 2/,33309,34383,35019,36034,36444,36765
-Jersey,Personal income (thousands of dollars),799764,792072,818776,819229,819867,833025
-Jersey,Population (persons) 1/,22872,22732,22620,22523,22306,22025
-Jersey,Per capita personal income (dollars) 2/,34967,34844,36197,36373,36755,37822
-Jo Daviess,Personal income (thousands of dollars),930443,941199,1008932,1011937,997879,997708
-Jo Daviess,Population (persons) 1/,22640,22496,22332,22298,22034,21770
-Jo Daviess,Per capita personal income (dollars) 2/,41097,41839,45179,45382,45288,45829
-Johnson,Personal income (thousands of dollars),318128,321721,326320,328406,333539,335872
-Johnson,Population (persons) 1/,12852,12912,12845,12834,12837,12902
-Johnson,Per capita personal income (dollars) 2/,24753,24916,25404,25589,25983,26033
-Kane,Personal income (thousands of dollars),20969178,21727410,22146471,23032971,23973832,24566385
-Kane,Population (persons) 1/,519723,521431,523590,526636,529702,531715
-Kane,Per capita personal income (dollars) 2/,40347,41669,42297,43736,45259,46202
-Kankakee,Personal income (thousands of dollars),3811845,3853714,3976637,4006765,4131361,4199107
-Kankakee,Population (persons) 1/,113518,112976,112227,111461,110795,110008
-Kankakee,Per capita personal income (dollars) 2/,33579,34111,35434,35948,37288,38171
-Kendall,Personal income (thousands of dollars),4604861,4760091,4942331,5109854,5360304,5555452
-Kendall,Population (persons) 1/,116856,118344,119709,121565,122946,124695
-Kendall,Per capita personal income (dollars) 2/,39406,40222,41286,42034,43599,44552
-Knox,Personal income (thousands of dollars),1910626,1915656,1945336,1929153,1937097,1957960
-Knox,Population (persons) 1/,52693,52302,52149,51953,51416,50938
-Knox,Per capita personal income (dollars) 2/,36260,36627,37303,37133,37675,38438
-Lake,Personal income (thousands of dollars),42184640,45881658,45451179,47946106,50466332,51291371
-Lake,Population (persons) 1/,700893,701220,703411,703357,703413,703047
-Lake,Per capita personal income (dollars) 2/,60187,65431,64615,68168,71745,72956
-LaSalle,Personal income (thousands of dollars),4196395,4194068,4330157,4360145,4409116,4493789
-LaSalle,Population (persons) 1/,113671,113109,112687,111933,111304,110642
-LaSalle,Per capita personal income (dollars) 2/,36917,37080,38426,38953,39613,40616
-Lawrence,Personal income (thousands of dollars),602567,587789,629619,624874,593629,558717
-Lawrence,Population (persons) 1/,16833,16682,16745,16595,16513,16377
-Lawrence,Per capita personal income (dollars) 2/,35797,35235,37600,37654,35949,34116
-Lee,Personal income (thousands of dollars),1297221,1267939,1345358,1321047,1306442,1321217
-Lee,Population (persons) 1/,35518,35114,35008,34789,34427,34251
-Lee,Per capita personal income (dollars) 2/,36523,36109,38430,37973,37948,38575
-Livingston,Personal income (thousands of dollars),1476274,1484963,1644531,1540771,1454867,1477511
-Livingston,Population (persons) 1/,38840,38553,37444,37116,36749,36526
-Livingston,Per capita personal income (dollars) 2/,38009,38517,43920,41512,39589,40451
-Logan,Personal income (thousands of dollars),986612,953473,1091504,1032814,1004823,1043856
-Logan,Population (persons) 1/,30308,30388,29890,29755,29540,29527
-Logan,Per capita personal income (dollars) 2/,32553,31377,36517,34711,34016,35353
-McDonough,Personal income (thousands of dollars),1078845,1063543,1122998,1098497,1067041,1072045
-McDonough,Population (persons) 1/,32485,32516,32167,31615,31342,30996
-McDonough,Per capita personal income (dollars) 2/,33211,32708,34911,34746,34045,34587
-McHenry,Personal income (thousands of dollars),13344425,13949302,14134206,14547445,15089052,15427535
-McHenry,Population (persons) 1/,307820,307529,306944,306749,307188,307004
-McHenry,Per capita personal income (dollars) 2/,43351,45359,46048,47425,49120,50252
-McLean,Personal income (thousands of dollars),7211744,7382857,7641584,7609660,7758468,7882623
-McLean,Population (persons) 1/,170789,172560,174777,173843,172673,172418
-McLean,Per capita personal income (dollars) 2/,42226,42784,43722,43773,44932,45718
-Macon,Personal income (thousands of dollars),4544939,4519942,4614556,4668575,4736270,4742238
-Macon,Population (persons) 1/,110624,110083,109533,108479,107377,106550
-Macon,Per capita personal income (dollars) 2/,41085,41059,42129,43037,44109,44507
-Macoupin,Personal income (thousands of dollars),1646546,1611434,1719854,1663145,1676761,1705731
-Macoupin,Population (persons) 1/,47797,47179,46851,46381,46089,45908
-Macoupin,Per capita personal income (dollars) 2/,34449,34156,36709,35858,36381,37155
-Madison,Personal income (thousands of dollars),10165239,10297520,10418522,10785439,11156577,11305363
-Madison,Population (persons) 1/,268552,268083,267246,266637,266071,265759
-Madison,Per capita personal income (dollars) 2/,37852,38412,38985,40450,41931,42540
-Marion,Personal income (thousands of dollars),1368284,1363796,1457248,1457860,1482277,1486718
-Marion,Population (persons) 1/,39004,38919,38594,38486,38378,38140
-Marion,Per capita personal income (dollars) 2/,35081,35042,37758,37880,38623,38981
-Marshall,Personal income (thousands of dollars),484900,477790,526102,500346,483198,498427
-Marshall,Population (persons) 1/,12492,12274,12115,11990,11980,11939
-Marshall,Per capita personal income (dollars) 2/,38817,38927,43426,41730,40334,41748
-Mason,Personal income (thousands of dollars),524940,511884,553327,524397,499469,511505
-Mason,Population (persons) 1/,14479,14346,14194,13920,13689,13507
-Mason,Per capita personal income (dollars) 2/,36255,35681,38983,37672,36487,37870
-Massac,Personal income (thousands of dollars),490248,503550,505951,510574,509601,514976
-Massac,Population (persons) 1/,15325,15149,14974,14881,14752,14658
-Massac,Per capita personal income (dollars) 2/,31990,33240,33789,34310,34545,35133
-Menard,Personal income (thousands of dollars),496550,488757,522834,497726,502957,520782
-Menard,Population (persons) 1/,12729,12726,12605,12578,12454,12516
-Menard,Per capita personal income (dollars) 2/,39009,38406,41478,39571,40385,41609
-Mercer,Personal income (thousands of dollars),664986,651587,671395,647120,637578,646805
-Mercer,Population (persons) 1/,16346,16190,16133,15964,15839,15730
-Mercer,Per capita personal income (dollars) 2/,40682,40246,41616,40536,40254,41119
-Monroe,Personal income (thousands of dollars),1528989,1591147,1598358,1667672,1751178,1782381
-Monroe,Population (persons) 1/,33229,33321,33547,33684,33893,34068
-Monroe,Per capita personal income (dollars) 2/,46014,47752,47645,49509,51668,52318
-Montgomery,Personal income (thousands of dollars),964132,937892,1061089,996826,970501,997307
-Montgomery,Population (persons) 1/,29841,29605,29329,29424,29196,28952
-Montgomery,Per capita personal income (dollars) 2/,32309,31680,36179,33878,33241,34447
-Morgan,Personal income (thousands of dollars),1259579,1264785,1289172,1256863,1266538,1290164
-Morgan,Population (persons) 1/,35526,35365,35027,34729,34605,34277
-Morgan,Per capita personal income (dollars) 2/,35455,35764,36805,36191,36600,37639
-Moultrie,Personal income (thousands of dollars),741851,898692,835932,811655,756466,758321
-Moultrie,Population (persons) 1/,14929,14984,14933,14911,14921,14827
-Moultrie,Per capita personal income (dollars) 2/,49692,59977,55979,54433,50698,51145
-Ogle,Personal income (thousands of dollars),2031169,2003639,2107743,2090145,2100418,2133763
-Ogle,Population (persons) 1/,53150,52834,52341,52067,51657,51273
-Ogle,Per capita personal income (dollars) 2/,38216,37923,40269,40143,40661,41616
-Peoria,Personal income (thousands of dollars),8544080,8909804,8462934,8641528,8820959,8819746
-Peoria,Population (persons) 1/,186624,187121,188377,187272,186315,185006
-Peoria,Per capita personal income (dollars) 2/,45782,47615,44926,46144,47344,47673
-Perry,Personal income (thousands of dollars),692983,738141,764878,768882,753635,765366
-Perry,Population (persons) 1/,22289,21862,21742,21558,21458,21357
-Perry,Per capita personal income (dollars) 2/,31091,33764,35180,35666,35121,35837
-Piatt,Personal income (thousands of dollars),747414,744658,773434,754106,734215,761609
-Piatt,Population (persons) 1/,16692,16523,16444,16438,16380,16560
-Piatt,Per capita personal income (dollars) 2/,44777,45068,47034,45876,44824,45991
-Pike,Personal income (thousands of dollars),550833,544756,637530,610816,581071,601637
-Pike,Population (persons) 1/,16360,16261,16105,15974,15981,15950
-Pike,Per capita personal income (dollars) 2/,33669,33501,39586,38238,36360,37720
-Pope,Personal income (thousands of dollars),126140,128262,127430,127946,129206,126115
-Pope,Population (persons) 1/,4493,4333,4338,4241,4204,4157
-Pope,Per capita personal income (dollars) 2/,28075,29601,29375,30169,30734,30338
-Pulaski,Personal income (thousands of dollars),201163,195437,207142,197780,196967,199681
-Pulaski,Population (persons) 1/,6002,5968,5895,5808,5672,5619
-Pulaski,Per capita personal income (dollars) 2/,33516,32747,35139,34053,34726,35537
-Putnam,Personal income (thousands of dollars),257595,274957,288806,287661,280704,266010
-Putnam,Population (persons) 1/,5971,5880,5815,5788,5636,5611
-Putnam,Per capita personal income (dollars) 2/,43141,46761,49666,49700,49806,47409
-Randolph,Personal income (thousands of dollars),1071884,1032207,1051378,1065847,1095235,1113819
-Randolph,Population (persons) 1/,33334,32987,33122,33092,32846,32621
-Randolph,Per capita personal income (dollars) 2/,32156,31291,31743,32209,33345,34144
-Richland,Personal income (thousands of dollars),566838,566232,624194,606889,599522,597790
-Richland,Population (persons) 1/,16227,16182,16097,16107,16043,15930
-Richland,Per capita personal income (dollars) 2/,34932,34991,38777,37679,37370,37526
-Rock Island,Personal income (thousands of dollars),5736718,5871544,5866134,5834491,5992696,6034217
-Rock Island,Population (persons) 1/,147411,147638,147509,146789,145958,144784
-Rock Island,Per capita personal income (dollars) 2/,38916,39770,39768,39747,41058,41677
-St. Clair,Personal income (thousands of dollars),10069829,10135433,10171476,10445171,10832088,10910034
-St. Clair,Population (persons) 1/,270001,268612,266807,265587,264079,262759
-St. Clair,Per capita personal income (dollars) 2/,37296,37733,38123,39329,41018,41521
-Saline,Personal income (thousands of dollars),866953,887782,924549,918966,909675,906143
-Saline,Population (persons) 1/,24954,24970,24863,24580,24574,24307
-Saline,Per capita personal income (dollars) 2/,34742,35554,37186,37387,37018,37279
-Sangamon,Personal income (thousands of dollars),8034030,8085019,8251256,8533993,8711515,8793346
-Sangamon,Population (persons) 1/,198905,199269,198973,198959,198496,197499
-Sangamon,Per capita personal income (dollars) 2/,40391,40573,41469,42893,43888,44523
-Schuyler,Personal income (thousands of dollars),291766,298230,338593,301693,286347,284271
-Schuyler,Population (persons) 1/,7473,7458,7362,7238,7043,6923
-Schuyler,Per capita personal income (dollars) 2/,39043,39988,45992,41682,40657,41062
-Scott,Personal income (thousands of dollars),189157,184444,197771,188976,179973,184583
-Scott,Population (persons) 1/,5232,5293,5208,5177,5114,5053
-Scott,Per capita personal income (dollars) 2/,36154,34847,37974,36503,35192,36529
-Shelby,Personal income (thousands of dollars),791568,752278,856961,798135,766972,798769
-Shelby,Population (persons) 1/,22307,22252,22177,22109,21801,21717
-Shelby,Per capita personal income (dollars) 2/,35485,33807,38642,36100,35181,36781
-Stark,Personal income (thousands of dollars),229513,218321,247426,219333,206248,213931
-Stark,Population (persons) 1/,5840,5937,5886,5836,5764,5776
-Stark,Per capita personal income (dollars) 2/,39300,36773,42036,37583,35782,37038
-Stephenson,Personal income (thousands of dollars),1711690,1754920,1772405,1779978,1774949,1799562
-Stephenson,Population (persons) 1/,47365,46938,46721,46339,45791,45624
-Stephenson,Per capita personal income (dollars) 2/,36138,37388,37936,38412,38762,39443
-Tazewell,Personal income (thousands of dollars),5500013,5722214,5577963,5706223,5839774,5911752
-Tazewell,Population (persons) 1/,135776,136111,136203,135567,134735,134385
-Tazewell,Per capita personal income (dollars) 2/,40508,42041,40953,42092,43343,43991
-Union,Personal income (thousands of dollars),596740,590123,607269,608737,616582,625467
-Union,Population (persons) 1/,17696,17639,17577,17463,17399,17212
-Union,Per capita personal income (dollars) 2/,33722,33456,34549,34859,35438,36339
-Vermilion,Personal income (thousands of dollars),2756214,2754814,2849419,2823683,2829444,2871333
-Vermilion,Population (persons) 1/,81380,80774,80495,79695,78990,78111
-Vermilion,Per capita personal income (dollars) 2/,33868,34105,35399,35431,35820,36760
-Wabash,Personal income (thousands of dollars),450878,455145,489125,488827,479254,483532
-Wabash,Population (persons) 1/,11819,11722,11628,11541,11554,11492
-Wabash,Per capita personal income (dollars) 2/,38149,38828,42064,42356,41479,42076
-Warren,Personal income (thousands of dollars),629335,615023,669153,643912,624893,640826
-Warren,Population (persons) 1/,17842,17736,17627,17809,17507,17378
-Warren,Per capita personal income (dollars) 2/,35273,34677,37962,36157,35694,36876
-Washington,Personal income (thousands of dollars),718507,653328,714913,704454,680117,688464
-Washington,Population (persons) 1/,14602,14618,14432,14394,14246,14154
-Washington,Per capita personal income (dollars) 2/,49206,44693,49537,48941,47741,48641
-Wayne,Personal income (thousands of dollars),606782,605509,678351,643745,623588,620161
-Wayne,Population (persons) 1/,16630,16624,16608,16532,16427,16396
-Wayne,Per capita personal income (dollars) 2/,36487,36424,40845,38939,37961,37824
-White,Personal income (thousands of dollars),617557,611264,667778,649161,629924,633100
-White,Population (persons) 1/,14596,14562,14502,14343,14349,14292
-White,Per capita personal income (dollars) 2/,42310,41977,46047,45260,43900,44298
-Whiteside,Personal income (thousands of dollars),2198572,2215784,2228868,2251630,2243714,2262831
-Whiteside,Population (persons) 1/,58235,57786,57446,57046,56963,56536
-Whiteside,Per capita personal income (dollars) 2/,37753,38345,38799,39470,39389,40025
-Will,Personal income (thousands of dollars),28036900,28950452,29514611,30707090,32279931,33097580
-Will,Population (persons) 1/,680501,682091,683474,685109,686687,689529
-Will,Per capita personal income (dollars) 2/,41200,42444,43183,44821,47008,48000
-Williamson,Personal income (thousands of dollars),2502250,2613400,2610622,2664087,2728373,2759830
-Williamson,Population (persons) 1/,66741,66793,67387,67350,67589,67560
-Williamson,Per capita personal income (dollars) 2/,37492,39127,38741,39556,40367,40850
-Winnebago,Personal income (thousands of dollars),10193483,10444223,10590752,10936829,11284233,11407382
-Winnebago,Population (persons) 1/,293620,291934,290868,288639,287168,285873
-Winnebago,Per capita personal income (dollars) 2/,34717,35776,36411,37891,39295,39904
-Woodford,Personal income (thousands of dollars),1724953,1796515,1845031,1845504,1874358,1883170
-Woodford,Population (persons) 1/,38924,38943,39171,39204,39158,39140
-Woodford,Per capita personal income (dollars) 2/,44316,46132,47102,47074,47867,48114
+"","IL_County_income$GeoName","IL_County_income$`2016`"
+"1","Illinois",663338023
+"2","Adams",2810914
+"3","Alexander",206981
+"4","Bond",559836
+"5","Boone",2253951
+"6","Brown",190657
+"7","Bureau",1305629
+"8","Calhoun",180483
+"9","Carroll",605052
+"10","Cass",484594
+"11","Champaign",8926464
+"12","Christian",1261475
+"13","Clark",606483
+"14","Clay",471764
+"15","Clinton",1585674
+"16","Coles",1903948
+"17","Cook",294875826
+"18","Crawford",825492
+"19","Cumberland",421901
+"20","DeKalb",3842626
+"21","De Witt",707969
+"22","Douglas",878428
+"23","DuPage",61404832
+"24","Edgar",715749
+"25","Edwards",227864
+"26","Effingham",1523708
+"27","Fayette",665243
+"28","Ford",669842
+"29","Franklin",1323138
+"30","Fulton",1218392
+"31","Gallatin",223612
+"32","Greene",463839
+"33","Grundy",2421170
+"34","Hamilton",342940
+"35","Hancock",759431
+"36","Hardin",137982
+"37","Henderson",272030
+"38","Henry",2110100
+"39","Iroquois",1184622
+"40","Jackson",2008935
+"41","Jasper",373741
+"42","Jefferson",1413995
+"43","Jersey",833025
+"44","Jo Daviess",997708
+"45","Johnson",335872
+"46","Kane",24566385
+"47","Kankakee",4199107
+"48","Kendall",5555452
+"49","Knox",1957960
+"50","Lake",51291371
+"51","LaSalle",4493789
+"52","Lawrence",558717
+"53","Lee",1321217
+"54","Livingston",1477511
+"55","Logan",1043856
+"56","McDonough",1072045
+"57","McHenry",15427535
+"58","McLean",7882623
+"59","Macon",4742238
+"60","Macoupin",1705731
+"61","Madison",11305363
+"62","Marion",1486718
+"63","Marshall",498427
+"64","Mason",511505
+"65","Massac",514976
+"66","Menard",520782
+"67","Mercer",646805
+"68","Monroe",1782381
+"69","Montgomery",997307
+"70","Morgan",1290164
+"71","Moultrie",758321
+"72","Ogle",2133763
+"73","Peoria",8819746
+"74","Perry",765366
+"75","Piatt",761609
+"76","Pike",601637
+"77","Pope",126115
+"78","Pulaski",199681
+"79","Putnam",266010
+"80","Randolph",1113819
+"81","Richland",597790
+"82","Rock Island",6034217
+"83","St. Clair",10910034
+"84","Saline",906143
+"85","Sangamon",8793346
+"86","Schuyler",284271
+"87","Scott",184583
+"88","Shelby",798769
+"89","Stark",213931
+"90","Stephenson",1799562
+"91","Tazewell",5911752
+"92","Union",625467
+"93","Vermilion",2871333
+"94","Wabash",483532
+"95","Warren",640826
+"96","Washington",688464
+"97","Wayne",620161
+"98","White",633100
+"99","Whiteside",2262831
+"100","Will",33097580
+"101","Williamson",2759830
+"102","Winnebago",11407382
+"103","Woodford",1883170
