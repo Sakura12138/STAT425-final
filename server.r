@@ -88,7 +88,7 @@ library(dplyr)
       clearShapes()%>%
       addCircles(~long,~lat,radius = radius, fillOpacity = 0.4,
                  fillColor = pal(colorData), stroke = FALSE)%>%
-      addLegend("bottomleft", pal =pal, values = colorData, title = colorBy)
+      addLegend("bottomleft", pal = pal, values = colorData, title = colorBy,layerId = "colorLegend")
     })
   }
 
