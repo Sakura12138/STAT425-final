@@ -22,10 +22,10 @@ library(dplyr)
     colorData <- newdata_price_to_rental[[colorBy]]
     pal <- colorBin("viridis",colorData,5,pretty = FALSE)
     if(sizeBy == "average_income"){
-      radius <- newdata_price_to_rental[[sizeBy]]/1500
+      radius <- newdata_price_to_rental[[sizeBy]]/5
     }else{
       if(sizeBy == "employment_rate"){
-        radius <- newdata_price_to_rental[[sizeBy]]*2000
+        radius <- newdata_price_to_rental[[sizeBy]]*20000
       }else{
         if(sizeBy == "population"){
           radius <- newdata_price_to_rental[[sizeBy]]/100
@@ -44,10 +44,10 @@ library(dplyr)
         colorData <- newdata_price_to_rental[[colorBy]]
         pal <- colorBin("viridis",colorData,5,pretty = FALSE)
         if(sizeBy == "average_income"){
-          radius <- newdata_price_to_rental[[sizeBy]]/1500
+          radius <- newdata_price_to_rental[[sizeBy]]/5
         }else{
           if(sizeBy == "employment_rate"){
-            radius <- newdata_price_to_rental[[sizeBy]]*2000
+            radius <- newdata_price_to_rental[[sizeBy]]*20000
           }else{
             if(sizeBy == "population"){
               radius <- newdata_price_to_rental[[sizeBy]]/100
@@ -62,13 +62,13 @@ library(dplyr)
         }
       }else{
         if(metroBy == 2){
-          colorData <- newdata_price_to_rental[[colorBy]]
+          colorData <- newdata_price_to_rental[[colorBy]]/5
           pal <- colorBin("viridis",colorData,5,pretty = FALSE)
           if(sizeBy == "average_income"){
-            radius <- newdata_price_to_rental[[sizeBy]]/1500
+            radius <- newdata_price_to_rental[[sizeBy]]
           }else{
             if(sizeBy == "employment_rate"){
-              radius <- newdata_price_to_rental[[sizeBy]]*2000
+              radius <- newdata_price_to_rental[[sizeBy]]*20000
             }else{
               if(sizeBy == "population"){
                 radius <- newdata_price_to_rental[[sizeBy]]/100
