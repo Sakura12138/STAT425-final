@@ -16,22 +16,75 @@ library(dplyr)
     observe({
       colorBy <- input$color
       sizeBy <- input$size
-    colorData <- newdata[[colorBy]]
+      metroBy <- input$metro
+    if(metroBy == 1){
+    newdata_price_to_rental <- subset(newdata_price_to_rental, subset = newdata_price_to_rental$metro == 1)    
+    colorData <- newdata_price_to_rental[[colorBy]]
     pal <- colorBin("viridis",colorData,5,pretty = FALSE)
-    if(sizeBy == "income"){
-      radius <- newdata[[sizeBy]]/4000
+    if(sizeBy == "average_income"){
+      radius <- newdata_price_to_rental[[sizeBy]]/1500
     }else{
       if(sizeBy == "employment_rate"){
-        radius <- (newdata[[sizeBy]]/newdata$population)*29000
+        radius <- newdata_price_to_rental[[sizeBy]]*2000
       }else{
         if(sizeBy == "population"){
-          radius <- newdata[[sizeBy]]/100
+          radius <- newdata_price_to_rental[[sizeBy]]/100
         }else{
-            radius <- newdata[[sizeBy]]*10
+          if(sizeBy == "value"){
+            radius <- newdata_price_to_rental[[sizeBy]]
+          }else{
+            radius <- newdata_price_to_rental[[sizeBy]]*5000000
           }
         }
       }
-    leafletProxy("mymap", data = newdata)%>%
+    }
+    }else{
+      if(metroBy == 0){
+        newdata_price_to_rental <- subset(newdata_price_to_rental, subset = newdata_price_to_rental$metro == 0)    
+        colorData <- newdata_price_to_rental[[colorBy]]
+        pal <- colorBin("viridis",colorData,5,pretty = FALSE)
+        if(sizeBy == "average_income"){
+          radius <- newdata_price_to_rental[[sizeBy]]/1500
+        }else{
+          if(sizeBy == "employment_rate"){
+            radius <- newdata_price_to_rental[[sizeBy]]*2000
+          }else{
+            if(sizeBy == "population"){
+              radius <- newdata_price_to_rental[[sizeBy]]/100
+            }else{
+              if(sizeBy == "value"){
+                radius <- newdata_price_to_rental[[sizeBy]]
+              }else{
+                radius <- newdata_price_to_rental[[sizeBy]]*5000000
+              }
+            }
+          }
+        }
+      }else{
+        if(metroBy == 2){
+          colorData <- newdata_price_to_rental[[colorBy]]
+          pal <- colorBin("viridis",colorData,5,pretty = FALSE)
+          if(sizeBy == "average_income"){
+            radius <- newdata_price_to_rental[[sizeBy]]/1500
+          }else{
+            if(sizeBy == "employment_rate"){
+              radius <- newdata_price_to_rental[[sizeBy]]*2000
+            }else{
+              if(sizeBy == "population"){
+                radius <- newdata_price_to_rental[[sizeBy]]/100
+              }else{
+                if(sizeBy == "value"){
+                  radius <- newdata_price_to_rental[[sizeBy]]
+                }else{
+                  radius <- newdata_price_to_rental[[sizeBy]]*5000000
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    leafletProxy("mymap", data = newdata_price_to_rental)%>%
       clearShapes()%>%
       addCircles(~long,~lat,radius = radius, fillOpacity = 0.4,
                  fillColor = pal(colorData), stroke = FALSE)%>%
