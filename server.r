@@ -90,6 +90,7 @@ library(dplyr)
                  fillColor = pal(colorData), stroke = FALSE)%>%
       addLegend("bottomleft", pal = pal, values = colorData, title = colorBy,layerId = "colorLegend")
     })
+  output$newdata_price_to_rental <- DT::renderDataTable({
+    newdata_price_to_rental
+  })
   }
-
-

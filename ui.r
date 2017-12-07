@@ -1,5 +1,6 @@
 library(leaflet)
 library(shiny)
+library(DT)
 #choices for drop downs
 vars <- c(
   "Income" = "average_income",
@@ -23,7 +24,8 @@ navbarPage("House Value in Illinois",
                                   width = 330, height = "auto",
                     selectInput("metro","is there a metro?", metro),
                     selectInput("color","Color",vars),
-                    selectInput("size","Size",vars))),   
+                    selectInput("size","Size",vars))),
+           tabPanel("Data",
+                    DT::dataTableOutput("newdata_price_to_rental")),
            tabPanel("House Value Prediction")
 )
-
