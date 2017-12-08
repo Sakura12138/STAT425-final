@@ -25,7 +25,10 @@ navbarPage("House Value in Illinois",
                     selectInput("metro","is there a metro?", metro),
                     selectInput("color","Color",vars),
                     selectInput("size","Size",vars))),
+           tabPanel("name",
+                    plotOutput("graph1")),
+           tabPanel("House Value Prediction"),
            tabPanel("Data",
-                    DT::dataTableOutput("newdata_price_to_rental")),
-           tabPanel("House Value Prediction")
+                    DT::dataTableOutput("newdata_price_to_rental"))
+           
 )
