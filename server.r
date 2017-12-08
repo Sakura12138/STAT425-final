@@ -4,7 +4,7 @@ library(RColorBrewer)
 library(scales)
 library(lattice)
 library(dplyr)
-
+library(ggplot2)
 
 
   function(input,output,session){
@@ -89,6 +89,118 @@ library(dplyr)
       addCircles(~long,~lat,radius = radius, fillOpacity = 0.4,
                  fillColor = pal(colorData), stroke = FALSE)%>%
       addLegend("bottomleft", pal = pal, values = colorData, title = colorBy,layerId = "colorLegend")
+    })
+  ##page 2
+    output$plot <- renderPlot({
+      v <- input$variable
+      t <- input$time
+     if(t == 2012){
+        paneldata2 <- subset(paneldata2, subset = paneldata2$year == 2012)
+      if(v == "mean_income"){
+        ggplot(data = paneldata2, aes(mean_income, housevalue,color = metro,
+                                       shape = as.factor(metro))) + geom_point(alpha = 0.5) + 
+                                       geom_smooth(model = lm, se = FALSE) +
+                                       geom_text(aes(label = county), check_overlap = TRUE)
+      }else{
+        if(v == "employment_rate"){
+          ggplot(data = paneldata2, aes(employment_rate, housevalue,color = metro,
+                                       shape = as.factor(metro))) + geom_point(alpha = 0.5) + 
+            geom_smooth(model = lm, se = FALSE) +
+            geom_text(aes(label = county), check_overlap = TRUE)
+        }else{
+            ggplot(data = paneldata2, aes(population, housevalue,color = metro,
+                                       shape = as.factor(metro))) + geom_point(alpha = 0.5) + 
+            geom_smooth(model = lm, se = FALSE) +
+            geom_text(aes(label = county), check_overlap = TRUE)
+        }
+      }
+     }else{
+       if(t == 2013){
+         paneldata2 <- subset(paneldata2, subset = paneldata2$year == 2013)
+         if(v == "mean_income"){
+           ggplot(data = paneldata2, aes(mean_income, housevalue,color = metro,
+                                        shape = as.factor(metro))) + geom_point(alpha = 0.5) + 
+             geom_smooth(model = lm, se = FALSE) +
+             geom_text(aes(label = county), check_overlap = TRUE)
+         }else{
+           if(v == "emploment_rate"){
+             ggplot(data = paneldata2, aes(emploment, housevalue,color = metro,
+                                          shape = as.factor(metro))) + geom_point(alpha = 0.5) + 
+               geom_smooth(model = lm, se = FALSE) +
+               geom_text(aes(label = county), check_overlap = TRUE)
+           }else{
+               ggplot(data = paneldata2, aes(population, housevalue,color = metro,
+                                            shape = as.factor(metro))) + geom_point(alpha = 0.5) + 
+                 geom_smooth(model = lm, se = FALSE) +
+                 geom_text(aes(label = county), check_overlap = TRUE)
+           }
+         }
+       }else{
+         if(t == 2014){
+           paneldata2 <- subset(paneldata2, subset = paneldata2$year == 2014)
+           if(v == "mean_income"){
+             ggplot(data = paneldata2, aes(mean_income, housevalue,color = metro,
+                                          shape = as.factor(metro))) + geom_point(alpha = 0.5) + 
+               geom_smooth(model = lm, se = FALSE) +
+               geom_text(aes(label = county), check_overlap = TRUE)
+           }else{
+             if(v == "emploment_rate"){
+               ggplot(data = paneldata2, aes(emploment, housevalue,color = metro,
+                                            shape = as.factor(metro))) + geom_point(alpha = 0.5) + 
+                 geom_smooth(model = lm, se = FALSE) +
+                 geom_text(aes(label = county), check_overlap = TRUE)
+             }else{
+                 ggplot(data = paneldata2, aes(population, housevalue,color = metro,
+                                              shape = as.factor(metro))) + geom_point(alpha = 0.5) + 
+                   geom_smooth(model = lm, se = FALSE) +
+                   geom_text(aes(label = county), check_overlap = TRUE)
+             }
+           }
+         }else{
+           if(t == 2015){
+             paneldata2 <- subset(paneldata2, subset = paneldata2$year == 2015)
+             if(v == "mean_income"){
+               ggplot(data = paneldata2, aes(mean_income, housevalue,color = metro,
+                                            shape = as.factor(metro))) + geom_point(alpha = 0.5) + 
+                 geom_smooth(model = lm, se = FALSE) +
+                 geom_text(aes(label = county), check_overlap = TRUE)
+             }else{
+               if(v == "emploment_rate"){
+                 ggplot(data = paneldata2, aes(emploment, housevalue,color = metro,
+                                              shape = as.factor(metro))) + geom_point(alpha = 0.5) + 
+                   geom_smooth(model = lm, se = FALSE) +
+                   geom_text(aes(label = county), check_overlap = TRUE)
+               }else{
+                   ggplot(data = paneldata2, aes(population, housevalue,color = metro,
+                                                shape = as.factor(metro))) + geom_point(alpha = 0.5) + 
+                     geom_smooth(model = lm, se = FALSE) +
+                     geom_text(aes(label = county), check_overlap = TRUE)
+               }
+             }
+           }else{
+             paneldata2 <- subset(paneldata2, subset = paneldata2$year == 2016)
+             if(v == "mean_income"){
+               ggplot(data = paneldata2, aes(mean_income, housevalue,color = metro,
+                                            shape = as.factor(metro))) + geom_point(alpha = 0.5) + 
+                 geom_smooth(model = lm, se = FALSE) +
+                 geom_text(aes(label = county), check_overlap = TRUE)
+             }else{
+               if(v == "emploment_rate"){
+                 ggplot(data = paneldata2, aes(emploment, housevalue,color = metro,
+                                              shape = as.factor(metro))) + geom_point(alpha = 0.5) + 
+                   geom_smooth(model = lm, se = FALSE) +
+                   geom_text(aes(label = county), check_overlap = TRUE)
+               }else{
+                   ggplot(data = paneldata2, aes(population, housevalue,color = metro,
+                                                shape = as.factor(metro))) + geom_point(alpha = 0.5) + 
+                     geom_smooth(model = lm, se = FALSE) +
+                     geom_text(aes(label = county), check_overlap = TRUE)
+         }
+       }
+           }
+         }
+       } 
+     }
     })
   output$newdata_price_to_rental <- DT::renderDataTable({
     newdata_price_to_rental
