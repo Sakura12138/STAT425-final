@@ -32,7 +32,7 @@ navbarPage("House Value in Illinois",
                     selectInput("metro","is there a metro?", metro),
                     selectInput("color","Color",vars),
                     selectInput("size","Size",vars))),
-           tabPanel("name",
+           tabPanel("PanelData",
                     plotOutput("plot"),
                     selectInput("variable", "Variable", page2),
                     sliderInput("time", "year", value = 2012, min = 2012, max = 2016)
