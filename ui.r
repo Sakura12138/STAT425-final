@@ -37,7 +37,13 @@ navbarPage("House Value in Illinois",
                     selectInput("variable", "Variable", page2),
                     sliderInput("time", "year", value = 2012, min = 2012, max = 2016)
                     ),
-           tabPanel("House Value Prediction"
+           tabPanel("House Value Prediction",
+                    numericInput("income", "Income", value = NULL),
+                    numericInput("population", "population", value = NULL),
+                    numericInput("employment_rate", "employment", value = NULL),
+                    numericInput("metro", "Is it a metro?", value = NULL, min = 0, max = 1, step = 1),
+                    actionButton("action", "Get House Value"),
+                    verbatimTextOutput("prediction")
                  ),
            tabPanel("Data",
                     DT::dataTableOutput("newdata_price_to_rental"))

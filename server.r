@@ -5,6 +5,7 @@ library(scales)
 library(lattice)
 library(dplyr)
 library(ggplot2)
+lmod <- lm(housevalue ~ mean_income + population + employment_rate + metro, data = paneldata2)
 
 
   function(input,output,session){
@@ -90,7 +91,10 @@ library(ggplot2)
                  fillColor = pal(colorData), stroke = FALSE)%>%
       addLegend("bottomleft", pal = pal, values = colorData, title = colorBy,layerId = "colorLegend")
     })
-  ##page 2
+    
+    
+    
+#############page 2
     output$plot <- renderPlot({
       v <- input$variable
       t <- input$time
@@ -202,6 +206,25 @@ library(ggplot2)
        } 
      }
     })
+    
+    
+    
+###########page3
+    observeEvent(input$action,{
+      output$prediction <- renderPrint({
+        mean_income <- input$income
+        population <- input$population
+        employment_rate <- input$employment_rate
+        metro <- input$metro
+        sum(lmod$coef*c(1,mean_income,population,employment_rate,as.numeric(metro)))
+    
+    })
+      })
+    
+
+    
+    
+##########page4    
   output$newdata_price_to_rental <- DT::renderDataTable({
     newdata_price_to_rental
   })
