@@ -1,8 +1,5 @@
 library(shiny)
 library(leaflet)
-library(RColorBrewer)
-library(scales)
-library(lattice)
 library(dplyr)
 library(ggplot2)
 lmod <- lm(housevalue ~ mean_income + population + employment_rate + metro, data = paneldata2)
@@ -12,7 +9,7 @@ lmod <- lm(housevalue ~ mean_income + population + employment_rate + metro, data
     output$mymap <- renderLeaflet({
       leaflet()%>%
         addTiles()%>%
-        setView(lng = -89, lat = 40, zoom = 10)
+        setView(lng = -89, lat = 40, zoom = 7)
     })
     observe({
       colorBy <- input$color
@@ -32,7 +29,7 @@ lmod <- lm(housevalue ~ mean_income + population + employment_rate + metro, data
           radius <- newdata_price_to_rental[[sizeBy]]/100
         }else{
           if(sizeBy == "value"){
-            radius <- newdata_price_to_rental[[sizeBy]]
+            radius <- newdata_price_to_rental[[sizeBy]]/10
           }else{
             radius <- newdata_price_to_rental[[sizeBy]]*5000000
           }
@@ -54,7 +51,7 @@ lmod <- lm(housevalue ~ mean_income + population + employment_rate + metro, data
               radius <- newdata_price_to_rental[[sizeBy]]/100
             }else{
               if(sizeBy == "value"){
-                radius <- newdata_price_to_rental[[sizeBy]]
+                radius <- newdata_price_to_rental[[sizeBy]]/10
               }else{
                 radius <- newdata_price_to_rental[[sizeBy]]*5000000
               }
@@ -75,7 +72,7 @@ lmod <- lm(housevalue ~ mean_income + population + employment_rate + metro, data
                 radius <- newdata_price_to_rental[[sizeBy]]/100
               }else{
                 if(sizeBy == "value"){
-                  radius <- newdata_price_to_rental[[sizeBy]]
+                  radius <- newdata_price_to_rental[[sizeBy]]/10
                 }else{
                   radius <- newdata_price_to_rental[[sizeBy]]*5000000
                 }
@@ -225,7 +222,7 @@ lmod <- lm(housevalue ~ mean_income + population + employment_rate + metro, data
     
     
 ##########page4    
-  output$newdata_price_to_rental <- DT::renderDataTable({
-    newdata_price_to_rental
+  output$paneldata2 <- DT::renderDataTable({
+    paneldata2
   })
   }

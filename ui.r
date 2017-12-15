@@ -6,7 +6,6 @@ vars <- c(
   "Income" = "average_income",
   "Employment Rate" = "employment_rate",
   "population" = "population",
-  "Crime Rate" = "crime_rate",
   "House Value" = "value"
 )
 metro <- c(
@@ -24,7 +23,8 @@ page2 <- c(
 navbarPage("House Value in Illinois", 
            
            tabPanel("Interactive map",
-                    leafletOutput("mymap"),
+                    tags$style(type = "text/css","html, body{width:100%;height:100%}"),
+                    leafletOutput("mymap", width = "100%", height = 600),
                     absolutePanel(fixed = TRUE,
                                   draggable = TRUE, top = 60, left = "auto",
                                   right = 20, bottom = "auto",
@@ -46,7 +46,7 @@ navbarPage("House Value in Illinois",
                     verbatimTextOutput("prediction")
                  ),
            tabPanel("Data",
-                    DT::dataTableOutput("newdata_price_to_rental"))
+                    DT::dataTableOutput("paneldata2"))
            
 )
 
